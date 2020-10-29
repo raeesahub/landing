@@ -1,0 +1,36 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.btn-banner {
+  color: white;
+  border: 2px solid white;
+  padding: 16px 20px;
+  border-radius: 48px;
+  margin-top: 24px;
+}
+
+.btn-banner:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background 0.2s ease;
+}

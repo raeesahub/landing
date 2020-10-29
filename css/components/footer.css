@@ -1,0 +1,24 @@
+.footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #1A4E58;
+  margin-top: 30px;
+}
+.footer a {
+  font-weight: lighter;
+  color: #7EBDC2;
+}
+
+.links a {
+  font-size: 30px;
+  color:  #7EBDC2;
+}
+
+.footer a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.footer p {
+  color: #7EBDC2;
+}
